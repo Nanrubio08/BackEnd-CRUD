@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+.env
+
+# Logs
+logs/
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS artifacts
+Thumbs.db
+.DS_Store
