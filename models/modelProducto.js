@@ -8,7 +8,7 @@ const productoSchema = new mongoose.Schema({
     subCategoria: {type: String, require: true},
     precioUnitario: { type: Number, required: true },
     stock: { type: Number },
-    imagenURL: { type: String },
+    imagen: { type: String },
     disponible: { type: Boolean, default: true },
 });
 
